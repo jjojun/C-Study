@@ -1,7 +1,6 @@
 #include<stdio.h>
- int main(void){
-   	float a;
-    scanf("%f", &a);
-    a = a*9/5+32;
-    printf("%.3f", a);
+int main(){
+	char a[31];
+	fgets(a, 31, stdin);
+	printf("%s", a);
 }
